@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  input, textarea {
+    @apply block w-full rounded-md border-gray-300 shadow-sm focus:border-red-500 focus:ring-red-500;
+  }
+}
